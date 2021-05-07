@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<script src="C:\Users\Duke Maquiling\Documents\friday\yurr.js">
+</script>
+<div id="body">
+    <div id ="main"> 
+        <h1>Stonks lmao</h1>
+        <h2>Symbol: </h2>
+        <input type="text" id="symid" name="symname">
+        <h2>Quantity: </h2>
+        <input type="text" id="qntyid" name="qntyname">
+        <h2>Entering Price (USD): </h2>
+        <input type="text" id="enterid" name="entername">
+        <h2>Expected Exiting Price (USD): </h2>
+        <input type="text" id="exitid" name="exitname"> <br><br>
+        <button onClick="estimate(document.getElementById('symid').value, document.getElementById('qntyid').value , document.getElementById('enterid').value, document.getElementById('exitid').value)">Submit</button>
+    
+        <p id="sym"></p>
+        <p id="qnty"></p>
+        <p id="enter"></p>
+        <p id="exit"></p>
+        <p id="diff"></p>
+        <p id="total"></p>
+    </div>
+</div>
+</body>
+</html>
